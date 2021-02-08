@@ -9,8 +9,10 @@
     .logo {
         width: 76px;
         height: 54px;
-        left: 11.7333333333%;
+        left: 11.609375%;
         top: 40.05px;
+        font-size: 36px;
+        line-height: 54px;
     }
     /* nav */
     .nav {
@@ -37,10 +39,40 @@
     .carousel:after {
         content: '';
     }
+    .carousel {
+        width: 240px;
+        top: 600px;
+        left: 67.5px;
+    }
     .flex {
         position: absolute;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 70px;
+    }
+    .selection-item {
+        width: 240px;
+        height: 277px;
+    }
+    .q-image {
+        width: 200px;
+        height: 153px;
+        align-items: center;
+        margin: 30px 20px;
+    }
+    .q-title {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+    /* add */
+    .add {
+        position: fixed;
+        width: 44px;
+        height: 44px;
+        left: 319.75px;
+        right: 11.75px;
+        top: 800px;
+        filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.25));
     }
 }
