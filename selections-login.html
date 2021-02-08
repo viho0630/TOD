@@ -11,16 +11,14 @@
     <link rel="stylesheet" href="css/flickity.css">
     <!-- CSS tự viết -->
     <link rel="stylesheet" href="css/section.css" type="text/css">
-    <link rel="stylesheet" href="css/queries-section.css">
-    <!-- Thêm icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/queries-section.css" type="text/css">
+    
 </head>
 
 <body>
-    <nav>
+    <nav class="navbar">
         <h1 class="logo"><a href="index.html">TOD</a></h1>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
-        <ul class="nav">
+        <ul class="nav-links">
             <li>
                 <a href="#">login</a>
             </li>
@@ -28,9 +26,11 @@
                 <a href="#">sign up</a>
             </li>
         </ul>
-        <label for="nav-toggle" class="nav-toogle" class="nav-toggle-label">
-            <i class="fas fa-bars"></i>
-        </label>
+        <a href="#" class="toggle-button">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </a>
         <div style="clear: both"></div>
     </nav>
 
@@ -63,6 +63,7 @@
         </a>
         
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

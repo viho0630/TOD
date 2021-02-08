@@ -48,7 +48,6 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
     position: absolute;
     width: 319px;
     height: 72px;
@@ -74,13 +73,6 @@ ul li a:hover, ul li a:active {
     color: black;
 }
 
-.nav-toggle {
-    display: none;
-}
-
-.nav-toggle:checked ~ .nav{
-    display: block;
-}
 /*end of nav*/
 
 /*selections*/
@@ -129,7 +121,6 @@ ul li a:hover, ul li a:active {
 .q-title {
     /* position: absolute; */
     background-color: transparent;
-    font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 46px;
@@ -154,3 +145,27 @@ ul li a:hover, ul li a:active {
     cursor: pointer;
 }
 /*end of add*/
+
+/*Toggle button*/
+
+.toggle-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    top: 7.389%;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+/*End of toggle button*/
