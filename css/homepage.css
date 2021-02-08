@@ -1,0 +1,184 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav */
+
+.logo {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 129px;
+    height: 92px;
+    left: 11.609375%;
+    top: 4.723%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 61px;
+    line-height: 91px;
+    /* identical to box height */
+    color: #F26A21;
+}
+
+.logo a:link, .logo a:visited {
+    color: #F26A21;
+    transition: color 0.2s;
+}
+
+.logo a:hover, .logo a:active {
+    color: #EE8B22;
+}
+
+a {
+    text-decoration: none;
+    color: #F26A21;
+}
+
+ul {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    position: absolute;
+    width: 319px;
+    height: 72px;
+    right: 11.609375%;
+    top: 6.389%;
+}
+
+li {
+    list-style: none;
+    font-size: 40px;
+    color: #EE8B22;
+    padding-bottom: 0;
+}
+
+li a:link, li a:visited {
+    color: #EE8B22;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+li a:hover, li a:active {
+    color: #F26A21;
+}
+
+/* section */
+
+/* Truth or Dare Game & Generator */
+
+h1 {
+    position: absolute;
+    width: 735.1px;
+    height: 201.85px;
+    left: 11.609375%;
+    top: 35.8194444444%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 69px;
+    line-height: 103px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+/* PLAY ONLINE AND FREE */
+
+#p-section {
+    margin-top: 3.5%;
+    position: absolute;
+    left: 11.609375%;
+    top: 54.6462962963%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.52em;
+    color: #000000;
+}
+
+#underline {
+    position: relative;
+    float: right;
+    width: 134.4px;
+    height: 20.54px;
+    margin-right: 10px;
+    align-self: flex-end;
+}
+
+/* button play */
+button > a {
+    color: white;
+}
+.btn-play {
+    margin-top: 4%;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #F26A21;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    font-size: 36px;
+    line-height: 54px;
+    position: absolute;
+    width: 150px;
+    height: 65px;
+    left: 11.609375%;
+    top: 63.0092592593%;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 42.5px 42.5378px;
+    transition: background-color 0.2s, border 0.2s;
+}
+
+.btn-play:link, .btn-play:visited{
+    background-color: #F26A21;
+    border: none;
+}
+
+.btn-play:hover, .btn-play:active{
+    background-color:red;
+    border: 1px solid red;
+}
+
+/* image */
+
+#game-day {
+    position: absolute;
+    width: 620px;
+    height: 494px;
+    right: 11.609375%;
+    top: 27.1296296296%;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer>p {
+    text-align: center;
+}

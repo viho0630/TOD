@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOD - Selection</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Sử dụng flickity để tùy biến carousel -->
+    <link rel="stylesheet" href="css/flickity.css">
+    <!-- CSS tự viết -->
+    <link rel="stylesheet" href="css/section.css" type="text/css">
+    <link rel="stylesheet" href="css/queries.css">
+    <!-- Thêm icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <h1 class="logo"><a href="index.html">TOD</a></h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <ul class="nav">
+            <li>
+                <a href="#">login</a>
+            </li>
+            <li>
+                <a href="#">sign up</a>
+            </li>
+        </ul>
+        <label for="nav-toggle" class="nav-toogle" class="nav-toggle-label">
+            <i class="fas fa-bars"></i>
+        </label>
+        <div style="clear: both"></div>
+    </nav>
+
+    <section>
+
+        <div class="carousel flex" data-flickity='{ "groupCells": true, "watchCSS": true }'>
+            <div class="kids selection-item carousel-cel">
+                <img class="q-image" src="img/img_kids.svg" alt="">
+                <p class="q-title">Kids</p>
+            </div>
+            <div class="party selection-item carousel-cel">
+                <img class="q-image" src="img/img_party.svg" alt="">
+                <p class="q-title">Party</p>
+            </div>
+            <div class="teens selection-item carousel-cel">
+                <img class="q-image" src="img/img_teens.svg" alt="">
+                <p class="q-title">Teens</p>
+            </div>
+            <div class="hot selection-item carousel-cel">
+                <img class="q-image" src="img/img_.svg" alt="">
+                <p class="q-title">Hot</p>
+            </div>
+        </div>
+
+        <a href="#">
+            <img class="add" src="img/Add.svg">
+        </a>
+
+
+    </section>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
